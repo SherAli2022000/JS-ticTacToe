@@ -2,6 +2,8 @@
 
 JS-ticTacToe is a simple implementation of the classic Tic Tac Toe game using HTML, CSS, and JavaScript.
 
+You can play the game by clicking on this [Live Demo](https://sherali2022000.github.io/JS-ticTacToe/).
+
 ## Table of Contents
 - [Features](#features)
 - [Demo](#demo)

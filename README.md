@@ -16,7 +16,7 @@ JS-ticTacToe is a simple implementation of the classic Tic Tac Toe game using HT
 
 ## Demo
 
-![Demo](url_to_your_demo_gif_or_screenshot)
+![Demo](https://github.com/SherAli2022000/JS-ticTacToe/blob/main/tictactoe.PNG)
 
 ## Installation
 

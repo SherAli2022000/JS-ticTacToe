@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0A2342;
+    
+
+}
+
+.TicTacToe{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+button{
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    background-color: blueviolet;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 20px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+}
+
+.cell{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: transparent;    
+    cursor: pointer; 
+    box-shadow: 0 0 8px 6px rgba(77, 77, 255, 0.84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.playerMove{
+    color: lightblue;
+    background-color: transparent;
+    font-size: 80px;
+}
+
+.computerMove{
+    color: red;
+    background-color: transparent;
+    font-size: 80px;
+}
+
+.winningBoxes{
+    background-color: violet;
+}
+
+
+.whoWon{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: green;
+    font-weight: bold;
+}
